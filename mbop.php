@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: MBOP remover
-Plugin URI: http://www.imt.fr
+Plugin URI: https://github.com/jeanphilipperuijs/mbop
 Description: Delete current user meta's 'meta-box-order_page'
 Version: 0.2
 Author: Jean-Philippe Ruijs
-Author URI: http://mpat.eu
+Author URI: https://github.com/jeanphilipperuijs/
 License: GPL2
 */
 
