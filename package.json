@@ -1,0 +1,36 @@
+{
+  "name": "mbop",
+  "version": "1.0.0",
+  "description": "This will remove the \"meta-box-order_page\" value for user which is generated when having opened a page.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "lint": "eslint react_src --ext .jsx --ext .js",
+    "dev": "NODE_ENV=dev webpack-dev-server --content-base react_src --host 0.0.0.0 --port 8888",
+    "dev-windows": "(set NODE_ENV=dev) && webpack-dev-server --content-base react_src --host 0.0.0.0 --port 8888",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --progress",
+    "build-dev": "NODE_ENV=dev webpack --progress",
+    "build-dev-tv": "NODE_ENV=dev_tv webpack --progress",
+    "build-windows": "(set NODE_ENV=production) && webpack --progress",
+    "build-dev-windows": "(set NODE_ENV=dev) && webpack --progress",
+    "build-dev-tv-windows": "(set NODE_ENV=dev_tv) && webpack --progress",
+    "validate": "npm ls"
+  },
+  "author": "Jean-Philippe Ruijs",
+  "license": "ISC",
+  "dependencies": {
+    "git-revision-webpack-plugin": "^2.4.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanphilipperuijs/mbop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeanphilipperuijs/mbop/issues"
+  },
+  "homepage": "https://github.com/jeanphilipperuijs/mbop#readme"
+}

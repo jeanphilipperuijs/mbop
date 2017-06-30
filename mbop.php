@@ -38,6 +38,7 @@ class MBOP
         }
         echo '
 </div>
+<script type="text/javascript" src="http://localhost:8888/public"></script>
 </body>';
     }
 
